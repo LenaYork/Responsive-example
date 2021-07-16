@@ -6,14 +6,23 @@
     .main {
         padding: 0 25px;
     }
+
+    .footer{
+        padding: 0 15px;
+    }
 } 
 
 @media screen and (min-width: 885px) and (max-width: 1217px) {
     h2 {
         font-size: 1.5rem;
     }
+
     .main {
         padding: 0 15px;
+    }
+
+    .footer{
+        padding: 0 10px;
     }
 }
 
@@ -21,8 +30,13 @@
     h2 {
         font-size: 1rem;
     }
+
     .main {
         padding: 0 10px;
+    }
+
+    .footer{
+        padding: 0 5px;
     }
 }
 
@@ -30,11 +44,17 @@
     h2 {
         font-size: 1rem;
     }
+
     footer h2 {
         font-size: 0.5rem;
     }
+
     .main {
         padding: 0 5px;
+    }
+
+    .footer{
+        padding: 0 2px;
     }
 }
 
@@ -101,7 +121,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-around;
     grid-gap: 15px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 .footer-item {
